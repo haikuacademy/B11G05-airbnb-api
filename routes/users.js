@@ -1,5 +1,6 @@
 import express from 'express'
-import router from express.Router()
+
+const router = express.Router()
 
 // Define a GET route for fetching the list of users
 router.get('/users', (req, res) => {
